@@ -1,0 +1,84 @@
+*{margin: 0;
+padding: 0;
+font-family: century gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://i.ibb.co/jR8FC8f/back.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {float: right;
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 1px;
+}
+
+.main {margin-right: 20px;}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 20px;
+	border: 1px transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.ative a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	width: 80px;
+	height: auto;
+	float: left;
+	padding: 1rem;
+}
+.Nav{
+	max-width: auto;
+	margin: auto;
+}
+
+.title{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+	color: #fff;
+	font-size: 35px;
+}
+
+.button {
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.btn {
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
